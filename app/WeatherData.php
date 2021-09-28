@@ -1,4 +1,5 @@
 <?php
+
 namespace App;
 
 class WeatherData
@@ -15,10 +16,10 @@ class WeatherData
         string $city,
         string $date,
         string $icon,
-        float $avgTempC,
-        float $minTempC,
-        float $maxTempC,
-        float $windKph
+        float  $avgTempC,
+        float  $minTempC,
+        float  $maxTempC,
+        float  $windKph
     )
     {
         $this->city = $city;
